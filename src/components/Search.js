@@ -36,7 +36,7 @@ class Search extends Component {
                             id="first_name"
                             type="text"
                             className="validate"
-                            placeholder="search"
+                            placeholder="Search movies and series"
                             value={this.state.search}
                             onChange={(e) =>
                                 this.setState({ search: e.target.value })
